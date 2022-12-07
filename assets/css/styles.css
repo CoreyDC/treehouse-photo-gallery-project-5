@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/body_background.jpg');
+}
+
+input {
+    display: block;
+    margin: 20px auto 50px auto;
+    width: 60%;
+    height: 60px;
+    border-style: outset;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 3px 3px 5px; 
+}
+
+::placeholder {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#overlay {
+    object-fit: cover;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.gallery {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    justify-items: center;
+} 
