@@ -16,3 +16,7 @@ To use this webpage you can open the Chrome DevTools by pressing Command+Option+
 ![Alt text](assets/img/webpage-screenshot.JPG)
 
 ## Credits
+
+https://github.com/CoreyDC/treehouse-photo-gallery-project-5
+
+https://coreydc.github.io/treehouse-photo-gallery-project-5/
