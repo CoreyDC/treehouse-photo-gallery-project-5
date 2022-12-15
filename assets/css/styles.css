@@ -4,6 +4,7 @@
 
 body {
     background-image: url('../img/body_background.jpg');
+    background-size: contain;
 }
 
 input {
@@ -30,13 +31,14 @@ input {
 
 img {
     border-radius: 10px;
+    border: 2px solid white;
     box-shadow: 3px 3px 5px black;
 }
 
 .gallery {
     max-width: 1200px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr)); 
     grid-template-rows: auto;
     grid-gap: 50px;
     justify-items: center;
